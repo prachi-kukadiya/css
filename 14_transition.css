@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    border: 2px solid black;
+    background-color: blueviolet;
+    transition-duration: 1s;
+    transition-delay: 1s;
+    transition:  background-color, border-radius, 1s, linear, 1s;
+}
+
+.box:hover{
+    border-radius: 20%;
+    border: 2px solid black;
+    background-color:brown;
+}

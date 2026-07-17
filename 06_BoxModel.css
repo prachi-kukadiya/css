@@ -1,0 +1,26 @@
+*{
+    background-color: mediumpurple;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100px;
+    width:100px;
+    background-color: coral;
+    margin:100px;
+    border:2px solid black;
+    border-style: dashed;
+    padding:100px;
+    border-radius: 20px;
+
+}
+
+.box{
+    height:100px;
+    width: 100px;
+    background-color: chartreuse;
+    border:2px dotted gray;
+    padding: 20px;
+    margin: 20px;;
+
+}

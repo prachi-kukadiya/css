@@ -1,0 +1,27 @@
+.text{
+    font-family:'Times New Roman', Times, serif
+    font:size :50px;
+    font :weight:800
+    color: indigo
+    font-style: italic;
+    text-align: center;
+    text-transform: capitalized;
+    text-decoration:line throung;
+     }
+
+     .paragraph{
+        line height: 30px;
+        letter spacing: 10px;
+        text indent: 200 px;
+        word spacing:50px;
+
+     }
+     
+     a{
+        text decoration:none;
+
+     }
+
+     li{
+        list style: none;
+     }
