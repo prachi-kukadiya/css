@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 800px;
+    width: 800px;
+    border: 2px solid black;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-flow: row;
+    
+}
+.box{
+    height: 70px;
+    width: 70px;
+    border: 2px solid black;
+    
+
+}
+.box4{
+    order: 10;
+}
