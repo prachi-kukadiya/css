@@ -1,341 +1,56 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blinkit Homepage</title>
+    <title>Instagram homepage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+          integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+          crossorigin="anonymous" 
+          referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./style.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+
+</head> 
 <body>
-    <header class="navbar">
-        <img src="./assets/logo.svg" class="logo"
-        alt="logo">
-     
-        
+  <div class="main-container">
+    <aside class="sidebar">
+     <div class="nav-top">
+        <div class="logo">
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+        <div class="nav-item">
+            <i class="fa-solid fa-house"></i><span>Home</span>
+        </div>
+        <div class="nav-item">
+            <i class="fa-brands fa-square-youtube"></i><span>Reels</span>
+        </div>
+        <div class="nav-item">
+            <i class="fa-regular fa-paper-plane"></i><span>Messages</span>
+        </div>
+        <div class="nav-item">
+            <i class="fa-solid fa-magnifying-glass"></i><span>Search</span>
+        </div>
+        <div class="nav-item">
+            <i class="fa-regular fa-heart"></i><span>Notifications</span>
+        </div>
+        <div class="nav-item">
+            <i class="fa-solid fa-plus"></i><span>Create</span>
+        </div>
+        <div class="nav-item">
+            <i class="fa-regular fa-circle-user"></i><span>Profile</span>
+        </div>
+     </div>
+     <div class="nav-bottom">
+        <div class="nav-item">
+             <i class="fa-solid fa-bars"></i><span>Menu</span>
+        </div>
+        <div class="nav-item">
+             <i class="fa-solid fa-cubes"></i><span>Tools</span>
+        </div>
     </div>
+     </aside>
 
-  
-
-    <div class="location">
-    <b>Delivery in 8 Minutes</b>
-    <br/>
-    <p>Bhavnagar</p>
-    </div>
-
-    <input type="text" class="search" placeholder="Search Items"/>
-
-    <button class="login-btn">Login</button>
-
-    <button class="my-cart"><i class="fa-solid fa-cart-shopping"></i>My Cart</button>
-
-    </header>
-
-    <hr>
-
-    <main>
-        <div class="container">
-            
-
-            <section id="hero-section">
-                <img src="./assets/banner-1.jpg" alt="banner-hero">
-            </section>
-
-            <section id="banners">
-
-                <img src="./assets/card-1.avif" alt="banner-1">
-                <img src="./assets/card-2.avif" alt="banner-2">
-                <img src="./assets/card-3.avif" alt="banner-3">
-               
-            </section>
-
-
-            <section class="category">
-                
-                <img src="./assets/paan-corner_web.avif" alt="p-1">
-                <img src="./assets/Slice-2_10 (1).avif" alt="p-2">
-                <img src="./assets/Slice-3_9.avif" alt="p-3">
-                <img src="./assets/Slice-4_9.avif" alt="p-4">
-                <img src="./assets/Slice-5_4.avif" alt="p-5">
-                <img src="./assets/Slice-6_5.avif" alt="p-6">
-                <img src="./assets/Slice-7_3.avif" alt="p-7">
-                <img src="./assets/Slice-8_4.avif" alt="p-8">
-                <img src="./assets/Slice-7-1_0.avif" alt="p-9">
-                <img src="./assets/Slice-10.avif" alt="p-10">
-
-            </section>
-
-            <section class="category">
-                <img src="./assets/Slice-11.avif" alt="p-1">
-                <img src="./assets/Slice-12.avif" alt="p-2">
-                <img src="./assets/Slice-13.avif" alt="p-3">
-                <img src="./assets/Slice-14.avif" alt="p-4">
-                <img src="./assets/Slice-15.avif" alt="p-5">
-                <img src="./assets/Slice-16.avif" alt="p-6">
-                <img src="./assets/Slice-17.avif" alt="p-7">
-                <img src="./assets/Slice-18.avif" alt="p-8">
-                <img src="./assets/Slice-19.avif" alt="p-9">
-                <img src="./assets/Slice-20.avif" alt="p-10">
-            </section>
-            </div>
-
-   <h1 class="head-line">Dairy, Breads & Eggs</h1>
-   <br/>
-            <section id="products">
-                <div class="product-details">
-                    <img src="./assets/rc-upload-1781155438653-138.avif"
-                    alt="butter">
-                    <h6 class="product-name">Amul Salted Butter</h6>
-                    <p class="quantity">100g</p>
-                    <div class="price">
-                        <h4>₹63</h4>
-                        <button class="add-btn">ADD</button>
-                    </div>
-                </div>
-
-    
-                <div class="product-details">
-                    <img src="./assets/cheese.avif" alt="cheese">
-                    <h6 class="product-name">Amul Cheese Cubes</h6>
-                    <p class="quantity">200g</p>
-                    <div class="price">
-                        <h4>₹132</h4>
-                        <button class="add-btn">ADD</button>
-                    </div>
-                </div>
-            
-                <div class="product-details">
-                    <img src="./assets/cheese-block.png" alt="cheese-block">
-                    <h6 class="product-name">Amul cheese Block</h6>
-                    <p class="quantity">200g</p>
-                    <div class="price">
-                        <h4>₹129</h4>
-                        <button class="add-btn">ADD</button>
-                    </div>
-                </div>
-           
-                <div class="product-details">
-                    <img src="./assets/diced-cheese.avif" alt="diced-cheese">
-                    <h6 class="product-name">Amul Blend Diced Cheese</h6>
-                    <p class="quantity">200g</p>
-                    <div class="price">
-                        <h4>₹125</h4>
-                        <button class="add-btn">ADD</button>
-                    </div>
-                </div>
-
-                <div class="product-details">
-            
-                    <img src="./assets/salted-butter.png" alt="salted-butter">
-                    <h6 class="product-name">Amul Salted Butter (200 g)</h6>
-                    <p class="quantity">200g</p>
-                    <div class="price">
-                        <h4>₹130</h4>
-                        <button class="add-btn">ADD</button>
-                    </div>
-                </div>
-
-                <div class="product-details">
-            
-                    <img src="./assets/cheese-slice.avif" alt="cheese-slice">
-                    <h6 class="product-name">Amul Cheese Slices</h6>
-                    <p class="quantity">100g</p>
-                    <div class="price">
-                        <h4>₹82</h4>
-                        <button class="add-btn">ADD</button>
-                    </div>
-                </div>
-
-                <div class="product-details">
-            
-                    <img src="./assets/cheese-slice.avif" alt="cheese-slice">
-                    <h6 class="product-name">Amul Cheese Slices</h6>
-                    <p class="quantity">100g</p>
-                    <div class="price">
-                        <h4>₹82</h4>
-                        <button class="add-btn">ADD</button>
-                    </div>
-                </div>
-                </section>
-                <br/>
-                <br/>
-                <br/>
-                 <h1 class="head-line">Snacks & Munchies</h1>
-                 <br/>
-                 <BR/>
-                 
-                <section id="products-2">
-                
-                  <div class="product-details">
-            
-                    <img src="./assets/s-1.avif" alt="chips">
-                    <h6 class="product-name">Beanly Choco Hazelnut Spread with Breadsticks</h6>
-                    <p class="quantity">52g</p>
-                    <div class="price">
-                        <h4>₹99</h4>
-                        <button class="add-btn">ADD</button>
-                    </div>
-                </div>
-
-                <div class="product-details">
-            
-                   <img src="./assets/s-2.avif" alt="chips">
-                    <h6 class="product-name">Chandan Saunf Elaichi Mouth Freshener</h6>
-                    <p class="quantity">52g</p>
-                    <div class="price">
-                        <h4>₹99</h4>
-                        <button class="add-btn">ADD</button>
-                    </div>
-                </div>
-            
-                 <div class="product-details">
-            
-                   <img src="./assets/s-3.avif" alt="chips">
-                    <h6 class="product-name">Protein Chef Himalayan Pink Salted Peanuts</h6>
-                    <p class="quantity">100g</p>
-                    <div class="price">
-                        <h4>₹59</h4>
-                        <button class="add-btn">ADD</button>
-                    </div>
-                </div>
-
-                <div class="product-details">
-                <img src="./assets/s-4.avif" alt="chips">
-                    <h6 class="product-name">Trident Watermelon Twist Chewing Gum </h6>
-                    <p class="quantity">26.6g</p>
-                    <div class="price">
-                        <h4>₹150</h4>
-                        <button class="add-btn">ADD</button>
-                    </div>
-                </div>
-            
-
-              <div class="product-details">
-                <img src="./assets/s-5.avif" alt="chips">
-                    <h6 class="product-name">Jolochip Last Chip Challenge Chips</h6>
-                    <p class="quantity">5g</p>
-                    <div class="price">
-                        <h4>₹222</h4>
-                        <button class="add-btn">ADD</button>
-                    </div>
-                </div>
+  </div>
         
-
-              <div class="product-details">
-                <img src="./assets/s-6.avif" alt="chips">
-                    <h6 class="product-name">Beanly Dark Chocolate Spread with Breadsticks </h6>
-                    <p class="quantity">52g</p>
-                    <div class="price">
-                        <h4>₹99</h4>
-                        <button class="add-btn">ADD</button>
-                    </div>
-                </div>
-
-                 <div class="product-details">
-                <img src="./assets/s-7.avif" alt="chips">
-                    <h6 class="product-name">Beanly Mighty Coffee Spread with Breadsticks </h6>
-                    <p class="quantity">52g</p>
-                    <div class="price">
-                        <h4>₹85</h4>
-                        <button class="add-btn">ADD</button>
-                    </div>
-                </div>
-
-
-
-            </section>
-
-        </div>
-    </main>
-    <BR/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <footer>
-       
-        <h4 class="heading">Usefull Links</h4>
-        
-          <div class="footer">  
-        <ul class="list">
-            <li>Blog</li>
-            <li>Privacy</li>
-            <li>Terms</li>
-            <li>FAQs</li>
-            <li>Security</li>
-            <li>Contacts</li>
-            
-        </ul>
-        <ul class="list">
-            <li>Partner</li>
-            <li>Franchise</li>
-            <li>Seller</li>
-            <li>Warehouse</li>
-            <li>Deliver</li>
-            <li>Resources</li>
-        </ul>
-        <ul class="list">
-            <li>Recipes</li>
-            <li>Bistro</li>
-            <li>District</li>
-            <li>Blinkit Ambulance</li>
-            <li>Feeding India</li>
-            
-        </ul>
-        </div>
-     <br/>     
-     <br/>     
-     <br/>     
-
-      <h4 class="heading-2">Categories</h4>
-           <div class="footer-2">
-        <ul class="list">
-            <li>Bath & Body</li>
-            <li>Beauty & Cosmetics</li>
-            <li>Health & Pharma</li>
-            <li>Atta, Rice & Dal</li>
-            <li>Bakery & Biscuits</li>
-            <li>Drinks & Juices</li>
-            <li>Sauces & Spreads</li>
-            <li>Home & Lifestyle</li>
-            <li>Stationery & Games</li>
-            <li>Rakhi</li>
-        </ul>
-
-        <ul class="list">
-            <li>Hair</li>
-            <li>Feminine Hygiene</li>
-            <li>Sexual Wellness</li>
-            <li>Oil, Ghee & Masala</li>
-            <li>Dry Fruits & Cereals</li>
-            <li>Chips & Namkeen</li>
-            <li>Tea, Coffee & Milk Drinks</li>
-            <li>Paan Corner</li>
-            <li>Cleaners & Repellents</li>
-            <li>Print Store</li>
-        </ul>
-
-        <ul class="list">
-            <li>Skin & Face</li>
-            <li>Baby Care</li>
-            <li>Vegetables & Fruits</li>
-            <li>Dairy, Bread & Eggs</li>
-            <li>Chicken, Meat & Fish</li>
-            <li>Sweets & Chocolates</li>
-            <li>Instant Food</li>
-            <li>Ice Creams & More</li>
-            <li>Electronics</li>
-            <li>E-Gift Cards</li>
-        </ul>
-        </div>
-
-    </footer>
-    
-      
-    
-        
-
 </body>
 </html>
