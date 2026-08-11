@@ -21,10 +21,19 @@
     border-radius: 20px;
     margin-top: 50px;
     background-color: crimson;
+    transition: all 1s;
+
 }
 .box:hover{
-
     transform: scale(1.5);
-   transform:rotate('360deg') ;
-   transform: skew(5);
+   /* transform: scaleX(1.5);*/
+  /* transform: scaleY(1.5);*/
+
+  /*transform: rotate(45deg);*/
+  /*transform: rotateX(90deg);*/
+  /*transform: rotateY(90deg);*/
+
+  /*transform:skew(45deg);*/
+  /*transform: skewX(45deg);*/
+ /* transform: skewY(45deg);*/
 }
