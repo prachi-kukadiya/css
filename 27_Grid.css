@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 800px;
+    width: 800px;
+    border: 2px solid black;
+    display: grid;
+}
+.box{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    /* grid-template-columns: 10px 20px 30px; */
+    /* grid-template-columns: 10fr 20fr 30fr; */
+    grid-template-rows: auto;
+    grid-template-rows:10px 20px 30px;
+}
